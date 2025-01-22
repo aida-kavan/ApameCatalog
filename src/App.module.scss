@@ -1,0 +1,32 @@
+:root{
+  --mainColor: #31496b
+}
+
+@font-face {
+  font-family: Doran-Bold;
+  src: url(../public/Doran-Bold.ttf);
+}
+
+@font-face {
+  font-family: Paragraphs;
+  src: url(../public/SFArabic-Medium.ttf);
+}
+* {
+  font-family: Doran-Bold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-family: Paragraphs;
+}
+
+.main {
+  margin-top: 10vh;
+  margin-bottom: 50vh;
+}
+
+
+
+
