@@ -1,29 +1,9 @@
-import Header from "../components/header";
-import { Link } from "react-router-dom";
-import styles from "../components.style/page.module.scss";
-import Title from "../components/title";
-import ProductItem from "../components/productItem";
-import { NoteBook } from "../notebooks.js";
-import { Calender } from "../calender.js";
+import React from 'react'
 
-const Gift = () => {
+const gift = () => {
   return (
-    <>
-      <Header />
-      <div className={styles.mainPageCont}>
-        <div className={styles.productCont}>
-          <Title title={"سالنامه"} />
-          {NoteBook.map((item)=>(
-            <ProductItem img={item.image} title={item.name} code={item.Pcode} />
-          ))}
-          <Title title={"تقویم"} />
-          {Calender.map((item)=>(
-            <ProductItem img={item.image} title={item.name} code={item.Pcode} />
-          ))}
-        </div>
-      </div>
-    </>
-  );
-};
+    <div>gift</div>
+  )
+}
 
-export default Gift;
+export default gift

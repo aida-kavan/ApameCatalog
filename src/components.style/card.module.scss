@@ -4,12 +4,12 @@
   
   @font-face {
     font-family: Doran-Bold;
-    src: url(../public/Doran-Bold.ttf);
+    src: url(../assets/Doran-Bold.ttf);
   }
   
   @font-face {
     font-family: Paragraphs;
-    src: url(../public/SFArabic-Medium.ttf);
+    src: url(../assets/fonnts.com-YekanBakh-Bold.ttf);
   }
   * {
     font-family: Doran-Bold;
@@ -43,8 +43,8 @@ top: 0px;
     top: 10%;
     // filter: drop-shadow(0px 0px 10px rgb(196, 196, 196));
     
-    h1{
-        font-size: 20px;
+    h2{
+        font-size: 18px;
         text-align: center;
         margin-bottom: 10px;
 
@@ -59,7 +59,7 @@ top: 0px;
         overflow: hidden;
         .imgContainer{
             width: 320px;
-            height: 180px;
+            height: 220px;
             overflow: hidden;
             margin: 10px;
             margin: 0 auto;
@@ -78,6 +78,7 @@ top: 0px;
             font-size: 10px;
             margin:10px;
         }
+        
         a{
             margin: 0 auto;
         }
@@ -85,7 +86,11 @@ top: 0px;
     }
     
 }
-
+span{
+          font-size: 12px;
+          font-family: Paragraphs;
+          color: rgb(68, 68, 68);
+        }
 .body{
     display: flex;
     flex-direction: column;
